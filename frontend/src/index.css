@@ -1,0 +1,90 @@
+
+ body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.task-input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.task-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-task-btn {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 20px 0;
+}
+
+.filter-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffca28;
+}
+
+.complete-btn {
+  background-color: #66bb6a;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+}
