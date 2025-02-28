@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}
